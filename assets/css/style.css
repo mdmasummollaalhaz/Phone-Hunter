@@ -43,3 +43,28 @@ p{
 #search-button:hover{
     background-color: #437c2e!important;
 }
+
+/* Responsive */
+@media only screen and (min-width: 1023px){
+    .card img{
+        width: 200px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    #phone-list{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #phone-details{
+        width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 481px) {
+    #phone-list{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+    
+  }
