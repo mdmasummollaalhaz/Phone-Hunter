@@ -36,3 +36,10 @@ p{
     background-color: #0a1225;
     color: #fff;
 }
+#search-button{
+    background-color: #5eab43!important;
+    transition: 2s ease;
+}
+#search-button:hover{
+    background-color: #437c2e!important;
+}
