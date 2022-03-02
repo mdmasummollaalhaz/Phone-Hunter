@@ -2,3 +2,37 @@
 .bgcolor{
     background-color: #14213d;
 }
+p{
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+#phone-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 16px;
+}
+.card{
+    padding: 32px 0;
+    border-radius: 12px !important;
+}
+.card img{
+    width: 150px;
+    margin: auto;
+}
+#phone-details{
+    width: 62%;
+    margin: auto;
+}
+.btn{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 20px;
+    background-color: #14213d;
+    color: #fff;
+    border: 0px
+}
+.btn:hover{
+    background-color: #0a1225;
+    color: #fff;
+}

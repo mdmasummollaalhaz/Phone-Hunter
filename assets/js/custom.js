@@ -39,7 +39,7 @@ const showPhone = (phones) => {
                 <div class="card-body text-center">
                 <h5 class="card-title">${phone.phone_name}</h5>
                 <p class="card-text">${phone.brand}</p>
-                <a href="#" class="btn btn-primary" id="details" onclick="getDetails('${phone.slug}')">More Details</a>
+                <a href="#" class="btn" id="details" onclick="getDetails('${phone.slug}')">More Details</a>
                 </div>
                 `
                 phoneList.append(phoneDiv);
